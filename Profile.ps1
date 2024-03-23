@@ -1,4 +1,4 @@
-function config
+function bash
 {
-    git --git-dir=$HOME/.cfg/ --work-tree=$HOME $args
+    & 'C:\Program Files\Git\bin\bash.exe' -c $args
 }
